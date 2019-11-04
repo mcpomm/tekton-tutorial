@@ -14,6 +14,7 @@ spec:
       labels:
         app: picalc
     spec:
+      serviceAccountName: tekton
       containers:
         - name: picalc
           image: __IMAGE__
